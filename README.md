@@ -1,14 +1,29 @@
-# NARUTO
+# 🍃 Rastreamento de Mãos — Naruto
 
-Simple hand tracking with Naruto/Sasuke powers.
+Rastreamento de mãos em tempo real com efeitos visuais do **Naruto** e **Sasuke** usando MediaPipe Hands.
 
-### How to use:
-- Open `index.html` in your browser.
+## Demo
 
-### Controls:
-- **Right Hand Open:** Shows Naruto power.
-- **Left Hand Open:** Shows Sasuke power.
-- **Blue Lines:** Shows the hand tracking so you know it's working
+🔗 [Abrir no browser](https://pedrodiniz310.github.io/rastreamento-de-maos-naruto/)
 
-### Note:
-- Had to remove the glow to make it compatible for all devices.
+## Como usar
+
+1. Abra o link acima no Chrome
+2. Permita acesso à câmera
+3. Faça os gestos:
+
+| Gesto | Efeito |
+|---|---|
+| Mão esquerda aberta | Rasengan do Naruto |
+| Mão direita aberta | Poder do Sasuke |
+
+## Tecnologias
+
+- [MediaPipe Hands](https://developers.google.com/mediapipe/solutions/vision/hand_landmarker) — detecção de mãos em tempo real
+- HTML5 Canvas — renderização dos efeitos
+- WebRTC — acesso à câmera
+- Zero dependências, zero backend
+
+## Sem webcam?
+
+Use o [DroidCam](https://www.dev47apps.com/) para transformar seu celular em webcam via Wi-Fi ou USB.
